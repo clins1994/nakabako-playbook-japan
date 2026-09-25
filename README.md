@@ -11,13 +11,22 @@ The first workflow is **health-checkup management in Japan**, from choosing the 
 
 ## Install and use
 
-With Node.js/npm installed, run this in your terminal (macOS/Linux):
+With Node.js/npm installed, run this in your terminal:
+
+```sh
+npx skills add clins1994/nakabako-playbook-japan
+```
+
+The interactive installer lets you choose your agent and installation options. No clone or wrapper script is needed. Review the skill and licenses before installation.
+
+<details>
+<summary>Optional: disable Skills CLI telemetry</summary>
+
+The simple command above uses the third-party Skills CLI's default telemetry settings. To opt out on macOS/Linux:
 
 ```sh
 DISABLE_TELEMETRY=1 npx skills add clins1994/nakabako-playbook-japan
 ```
-
-The interactive installer lets you choose your agent and installation options. No clone or wrapper script is needed. Review the skill and licenses before installation.
 
 For PowerShell:
 
@@ -25,7 +34,9 @@ For PowerShell:
 $env:DISABLE_TELEMETRY="1"; npx skills add clins1994/nakabako-playbook-japan
 ```
 
-**Privacy:** the recommended command disables Skills CLI telemetry. nakabako includes no usage analytics, but a repository cannot disable telemetry in an independently launched third-party CLI: omitting the flag uses that CLI's defaults. Your assistant's telemetry and conversation logging remain under its own controls. npm/GitHub downloads still require network access.
+nakabako includes no usage analytics. Your assistant's telemetry and conversation logging remain under its own controls. npm/GitHub downloads still require network access.
+
+</details>
 
 For a reproducible install, use `skills@1.7.0` instead of `skills`; that is the version tested for the initial bootstrap. See [verification](docs/verification.md).
 
