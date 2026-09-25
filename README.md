@@ -5,6 +5,8 @@ SPDX-License-Identifier: CC-BY-4.0
 Community-maintained agent playbooks for navigating real-world processes:
 requirements → rules → decisions → sources → forms → actions → follow-up.
 
+**Why nakabako?** Read the [project vision and guiding principles](docs/vision.md).
+
 The first workflow is **health-checkup management in Japan**, from choosing the correct administrative route through preparation, results paperwork, reimbursement and follow-up coordination—not just finding a clinic.
 
 **Bootstrap, not production clinical software.** English-speaking adult residents are the initial audience. The skill assists administration, not diagnosis, treatment, emergency care or selection of medically appropriate screening. Factual knowledge is deliberately **draft**, not certified current. Verify mutable requirements against current authorities at use. No automated booking service, OCR engine, browser extension, scheduler or persistence writer is bundled.
