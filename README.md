@@ -11,7 +11,25 @@ The first workflow is **health-checkup management in Japan**, from choosing the 
 
 ## Install and use
 
-Review the skill and licenses before letting an agent use it. With Node/npm available, from the project where you want the skill installed:
+### Recommended: telemetry-off installer
+
+Review the skill and licenses, install Node.js/npm, then run `bash install.sh` from this checkout. The installer asks which supported agent to use and installs the complete skill. To install into a different project, run `bash /path/to/nakabako-playbook-japan/install.sh` from that project instead.
+
+After this repository is published, a new user can run:
+
+```sh
+git clone https://github.com/clins1994/nakabako-playbook-japan.git
+cd nakabako-playbook-japan
+bash install.sh
+```
+
+The remote is still empty until publication; these clone-and-install instructions become usable after the first push.
+
+The installer automatically sets `DISABLE_TELEMETRY=1` and `DO_NOT_TRACK=1` for the pinned Skills CLI. No shell-profile changes are needed. nakabako includes no usage analytics. This is not a repository-wide switch for third-party software: directly invoking `npx skills` bypasses our wrapper, and the selected assistant's logging/telemetry remains under its own controls. npm/GitHub downloads still require network access. The wrapper also disables npm audit/funding requests; it does not establish a network sandbox or replace security review.
+
+### Advanced: direct Skills CLI
+
+With Node/npm available, from the project where you want the skill installed:
 
 ```sh
 # From an existing local clone (replace the absolute path):
