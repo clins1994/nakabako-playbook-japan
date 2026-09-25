@@ -11,40 +11,25 @@ The first workflow is **health-checkup management in Japan**, from choosing the 
 
 ## Install and use
 
-### Recommended: telemetry-off installer
-
-Review the skill and licenses, install Node.js/npm, then run `bash install.sh` from this checkout. The installer asks which supported agent to use and installs the complete skill. To install into a different project, run `bash /path/to/nakabako-playbook-japan/install.sh` from that project instead.
-
-After this repository is published, a new user can run:
+With Node.js/npm installed, run this in your terminal (macOS/Linux):
 
 ```sh
-git clone https://github.com/clins1994/nakabako-playbook-japan.git
-cd nakabako-playbook-japan
-bash install.sh
+DISABLE_TELEMETRY=1 npx skills add clins1994/nakabako-playbook-japan
 ```
 
-The remote is still empty until publication; these clone-and-install instructions become usable after the first push.
+The interactive installer lets you choose your agent and installation options. No clone or wrapper script is needed. Review the skill and licenses before installation.
 
-The installer automatically sets `DISABLE_TELEMETRY=1` and `DO_NOT_TRACK=1` for the pinned Skills CLI. No shell-profile changes are needed. nakabako includes no usage analytics. This is not a repository-wide switch for third-party software: directly invoking `npx skills` bypasses our wrapper, and the selected assistant's logging/telemetry remains under its own controls. npm/GitHub downloads still require network access. The wrapper also disables npm audit/funding requests; it does not establish a network sandbox or replace security review.
+For PowerShell:
 
-### Advanced: direct Skills CLI
-
-With Node/npm available, from the project where you want the skill installed:
-
-```sh
-# From an existing local clone (replace the absolute path):
-DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx --yes skills@1.7.0 add /absolute/path/to/nakabako-playbook-japan --skill health-checkup --agent codex --copy --yes
+```powershell
+$env:DISABLE_TELEMETRY="1"; npx skills add clins1994/nakabako-playbook-japan
 ```
 
-This selects a project-local Codex-compatible installation, not a global install. Choose your supported agent using the CLI's help; do not use `--global` unless you deliberately want a global install. Other harnesses can copy the **whole** `skills/health-checkup/` directory into their documented skill directory. Copying only SKILL.md breaks its knowledge dependencies. Python 3.11+ is optional for offline checks; the prose workflow works without Python or browser automation.
+**Privacy:** the recommended command disables Skills CLI telemetry. nakabako includes no usage analytics, but a repository cannot disable telemetry in an independently launched third-party CLI: omitting the flag uses that CLI's defaults. Your assistant's telemetry and conversation logging remain under its own controls. npm/GitHub downloads still require network access.
 
-Once this local bootstrap is published, the corresponding remote-source command will be:
+For a reproducible install, use `skills@1.7.0` instead of `skills`; that is the version tested for the initial bootstrap. See [verification](docs/verification.md).
 
-```sh
-DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx --yes skills@1.7.0 add clins1994/nakabako-playbook-japan --skill health-checkup --agent codex --copy --yes
-```
-
-**The remote is not populated by this bootstrap; that remote command is not yet a working installation source.** No push was authorized. Package download uses npm's network service; telemetry flags are not a claim of zero network access. See [verification](docs/verification.md) for the isolated local-copy test.
+Other harnesses can copy the **whole** `skills/health-checkup/` directory into their documented skill directory. Copying only SKILL.md breaks its knowledge dependencies. Python 3.11+ is optional for offline checks; the prose workflow works without Python or browser automation.
 
 Ask your agent: “I need a health checkup in Japan.” It should ask the next material question, or inspect a supplied requirement document, rather than start a long questionnaire. A host without browser tools can still guide manual completion with Japanese/English procedural help. See the [realistic synthetic end-to-end example](docs/end-to-end-example.md).
 
