@@ -1,0 +1,111 @@
+{
+  "license": "CC-BY-4.0",
+  "note": "HTTP retrieval receipts only, not verification events. Full source pages are not redistributed.",
+  "receipts": [
+    {
+      "url": "https://laws.e-gov.go.jp/law/347M50002000032",
+      "resolved_url": "https://laws.e-gov.go.jp/law/347M50002000032",
+      "retrieved_at": "2026-09-25T08:33:07.091908+00:00",
+      "sha256": "b2e5ede6447907450aadd16d512d97d3ffed4c35dac9e5ba0fa6a9859de8ab55",
+      "http_status": 200
+    },
+    {
+      "url": "https://jsite.mhlw.go.jp/tokyo-roudoukyoku/hourei_seido_tetsuzuki/roudoukijun_kenshin_0001.html",
+      "resolved_url": "https://jsite.mhlw.go.jp/tokyo-roudoukyoku/hourei_seido_tetsuzuki/roudoukijun_kenshin_0001.html",
+      "retrieved_at": "2026-09-25T08:33:26.567615+00:00",
+      "sha256": "f2f9001954cecf9576b2c1c0b515d52f40097991dce60bf8391bee9af4b310a4",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/handbook_31132.html",
+      "resolved_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/handbook_31132.html",
+      "retrieved_at": "2026-09-25T08:33:59.851898+00:00",
+      "sha256": "6e4c6e09c455fb1e19fe86c2f6edafb1cac5ad13a3adfb11ba15a650b3561de3",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.city.shinjuku.lg.jp/kenkou/kenko02_001008.html",
+      "resolved_url": "https://www.city.shinjuku.lg.jp/kenkou/kenko02_001008.html",
+      "retrieved_at": "2026-09-25T08:33:26.882365+00:00",
+      "sha256": "d4d50d3ecaa514613161d858297c01ec1549f63edc6539634f4827198f8160ad",
+      "http_status": 200
+    },
+    {
+      "url": "https://jsite.mhlw.go.jp/yamanashi-roudoukyoku/hourei_seido_tetsuzuki/anzen_eisei/hourei_seido/5-9.html",
+      "resolved_url": "https://jsite.mhlw.go.jp/yamanashi-roudoukyoku/hourei_seido_tetsuzuki/anzen_eisei/hourei_seido/5-9.html",
+      "retrieved_at": "2026-09-25T08:33:26.161688+00:00",
+      "sha256": "3cec48fc920ace1c51b0e1f47e7acd8bbd372eef0e8e06f8f1551b0f86ecebe2",
+      "http_status": 200
+    },
+    {
+      "url": "https://fujisawatokushukai.jp/en/dock/",
+      "resolved_url": "https://fujisawatokushukai.jp/en/dock/",
+      "retrieved_at": "2026-09-25T08:34:24.205941+00:00",
+      "sha256": "6da740339efaafc2db82732f198c3c29ea521c4cd732f40e8cde35491f2d4c3e",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.tokyomidtown-mc.jp/en/health/",
+      "resolved_url": "https://www.tokyomidtown-mc.jp/en/health/",
+      "retrieved_at": "2026-09-25T08:34:23.719317+00:00",
+      "sha256": "2f9b4197370027bf562dbfb2a1a4fb4a82ff299640a99dc1a119aff36be14ca3",
+      "http_status": 200
+    },
+    {
+      "url": "https://jsite.mhlw.go.jp/yamanashi-roudoukyoku/hourei_seido_tetsuzuki/anzen_eisei/hourei_seido/kenkoushindankaisei.html",
+      "resolved_url": "https://jsite.mhlw.go.jp/yamanashi-roudoukyoku/hourei_seido_tetsuzuki/anzen_eisei/hourei_seido/kenkoushindankaisei.html",
+      "retrieved_at": "2026-09-25T08:33:26.360447+00:00",
+      "sha256": "b2193fe0ce3c7962ca535526d97237e1d119eaa6eefae1c7b86eac84c00e9952",
+      "http_status": 200
+    },
+    {
+      "url": "https://search.yahoo.co.jp/search?p=%E5%AE%9A%E6%9C%9F%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%96%AD+site%3Ajsite.mhlw.go.jp",
+      "resolved_url": "https://search.yahoo.co.jp/search?p=%E5%AE%9A%E6%9C%9F%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%96%AD+site%3Ajsite.mhlw.go.jp",
+      "retrieved_at": "2026-09-25T08:33:01.066531+00:00",
+      "sha256": "836d7bd5fa63c9768d017e10f0b7f30a451f253dc9593a468f361ffa1a0b4159",
+      "http_status": 200
+    },
+    {
+      "url": "https://search.yahoo.co.jp/search?p=site.kyoukaikenpo.or.jp+2026+%E5%81%A5%E8%A8%BA+35",
+      "resolved_url": "https://search.yahoo.co.jp/search?p=site.kyoukaikenpo.or.jp+2026+%E5%81%A5%E8%A8%BA+35",
+      "retrieved_at": "2026-09-25T08:33:47.964405+00:00",
+      "sha256": "76b581cef2a051f18a7fda3b603074137593398a8b50e7b5684014d3a981eec0",
+      "http_status": 200
+    },
+    {
+      "url": "https://search.yahoo.co.jp/search?p=site.mhlw.go.jp+%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%96%AD+%E4%BB%A4%E5%92%8C9%E5%B9%B44%E6%9C%88",
+      "resolved_url": "https://search.yahoo.co.jp/search?p=site.mhlw.go.jp+%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%96%AD+%E4%BB%A4%E5%92%8C9%E5%B9%B44%E6%9C%88",
+      "retrieved_at": "2026-09-25T08:33:48.477373+00:00",
+      "sha256": "09c79e357ad6ed2f63c4bf9706bfb8a9733b0c6357d5e2a4c0b66b0c0d2425d0",
+      "http_status": 200
+    },
+    {
+      "url": "https://search.yahoo.co.jp/search?p=health+checkup+preparation+fasting+site%3Aluke.ac.jp",
+      "resolved_url": "https://search.yahoo.co.jp/search?p=health+checkup+preparation+fasting+site%3Aluke.ac.jp",
+      "retrieved_at": "2026-09-25T08:33:27.390993+00:00",
+      "sha256": "7ffa1afe5036f0a29ae20fcabb2d72e7481617476be1d073491d9ef2e3772538",
+      "http_status": 200
+    },
+    {
+      "url": "https://search.yahoo.co.jp/search?p=health+checkup+preparation+English+hospital+Japan",
+      "resolved_url": "https://search.yahoo.co.jp/search?p=health+checkup+preparation+English+hospital+Japan",
+      "retrieved_at": "2026-09-25T08:33:47.453829+00:00",
+      "sha256": "77282a744f51af33953e81487f25224a2105047e0daf8cc875b42987d3ae8164",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.city.shinjuku.lg.jp/kenkou/index.html",
+      "resolved_url": "https://www.city.shinjuku.lg.jp/kenkou/index.html",
+      "retrieved_at": "2026-09-25T08:33:01.279942+00:00",
+      "sha256": "7f1f91dc74cdfba2feefe63a001e972933a374b630dc68a1a38ca45804075296",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000161103.html",
+      "resolved_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000161103.html",
+      "retrieved_at": "2026-09-25T08:32:40.966005+00:00",
+      "sha256": "8110d140e39859ac42cb066ba715b1e95c2ec2aeb10cd451cf99b0d44aba44fd",
+      "http_status": 200
+    }
+  ]
+}

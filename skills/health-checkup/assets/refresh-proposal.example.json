@@ -1,0 +1,23 @@
+{
+  "_license": "CC-BY-4.0",
+  "_notice": "SYNTHETIC format example only. Reserved example domains and dates; not evidence of a real verification.",
+  "statement_id": "jp.healthcheck.employment.baseline",
+  "proposed_text": "Replace with a narrowly scoped, source-supported administrative statement.",
+  "scope": "Japan; applicable examination date must be assessed",
+  "effective_from": null,
+  "superseded_by": null,
+  "revalidation": {
+    "url": "https://authority.example/old-guidance",
+    "retrieved_at": "2026-09-25T00:00:00Z",
+    "outcome": "unchanged",
+    "evidence": "Replace with actual section, relevant short quotation and content fingerprint."
+  },
+  "rediscovery": {
+    "query": "site:authority.example current examination requirements amendment",
+    "searched_at": "2026-09-25T00:00:00Z",
+    "candidates": [
+      {"url": "https://authority.example/current-index", "assessment": "Replace with actual review of newer or superseding evidence and applicability."}
+    ]
+  },
+  "privacy_reviewed": false
+}

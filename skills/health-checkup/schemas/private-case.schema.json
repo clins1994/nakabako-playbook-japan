@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nakabako:private-case:v1",
+  "$comment": "SPDX-License-Identifier: MIT. Opt-in only, outside repository; no personal identifiers, documents, results, free text or URLs.",
+  "title": "Minimal private administrative checkpoint",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "purpose", "stage", "next_action"],
+  "properties": {
+    "schema_version": {"const": "1"},
+    "purpose": {"enum": ["unknown", "employment", "school", "municipal", "insurer", "personal"]},
+    "stage": {"enum": ["intake", "requirements", "providers", "booking", "booked", "attended", "results", "submission", "closed"]},
+    "next_action": {"enum": ["clarify_goal", "read_requirements", "verify_sources", "compare_providers", "user_checkpoint", "review_confirmation", "review_instructions", "check_delivery", "review_submission", "contact_provider", "none"]},
+    "requirements_reviewed": {"type": "boolean"},
+    "instructions_reviewed": {"type": "boolean"},
+    "submission_acknowledged": {"type": "boolean"}
+  }
+}

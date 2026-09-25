@@ -1,0 +1,10 @@
+.work/
+.venv/
+__pycache__/
+*.pyc
+.agents/
+.hermes/
+.claude/
+node_modules/
+private/
+*case*.private.json
