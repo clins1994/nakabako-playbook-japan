@@ -1,0 +1,159 @@
+{
+  "license": "CC-BY-4.0",
+  "research_type": "public-only retrieval and passage review, not clinical verification",
+  "checked_at": "2026-10-13T02:48:48Z",
+  "sources": [
+    {
+      "id": "mhlw-consent",
+      "resource": "https://www.mhlw.go.jp/stf/newpage_04978.html",
+      "title": "MHLW cosmetic procedure checklist",
+      "published": null,
+      "passage": "Checklist items 1–4; consultation and complaint contacts",
+      "scope": "Japan; informed choice, risks, alternatives and avoiding rushed decisions",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "ncac-contract",
+      "resource": "https://www.kokusen.go.jp/news/data/n-20171207_1.html",
+      "title": "NCAC cosmetic medical contract rules",
+      "published": "2017-12-07",
+      "passage": "Rules overview and consumer advice",
+      "scope": "Japan; qualifying contracts only, not universal cancellation rights",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "ncac-harm",
+      "resource": "https://www.kokusen.go.jp/pdf/n-20170511_1.pdf",
+      "title": "NCAC hair-removal injuries",
+      "published": "2017-05-11",
+      "passage": "PDF pp. 3–4 injury types; pp. 11–12 safety concerns; p. 33 appropriate device use",
+      "scope": "Historical consumer safety evidence, not current incidence or provider ranking",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "ncac-2026",
+      "resource": "https://www.kokusen.go.jp/news/data/n-20260120_1.html",
+      "title": "NCAC male cosmetic medical contract warning",
+      "published": "2026-01-20",
+      "passage": "Hair-removal upselling example and consumer advice",
+      "scope": "Current consumer warning; no private case examples reproduced",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "hospital-laser",
+      "resource": "https://kashimoto.or.jp/news/patient/kashimoto_raser.html",
+      "title": "Kashimoto Hospital medical laser outpatient information",
+      "published": null,
+      "passage": "Medical laser explanation; first consultation; precautions; shaving and payment",
+      "scope": "Provider-specific illustration, not a recommended clinic or universal protocol",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "writing",
+      "resource": "https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md",
+      "title": "ayghri/i-have-adhd writing guidance",
+      "published": null,
+      "passage": "Rules 1–5, 9–10 and exceptions",
+      "scope": "Writing only; no installation or executable reuse",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "mhlw-laser",
+      "resource": "https://www.mhlw.go.jp/web/t_doc?dataId=00ta6731&dataType=1&pageNo=1",
+      "title": "MHLW follicle-destroying light/laser medical-act notice",
+      "published": "2001-11-08",
+      "passage": "Medical-act boundary, irrespective of branding",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "mhlw-staff",
+      "resource": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc9325&dataType=1&pageNo=1",
+      "title": "MHLW cosmetic medical interpretation",
+      "published": "2025-08-15",
+      "passage": "Section 1 unqualified counselors and section 2 nurses under physician instructions",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "jda-cosmetic",
+      "resource": "https://www.dermatol.or.jp/dermatol/wp-content/uploads/xoops/files/news/Gaku_202220812_biyoiryoservis.pdf",
+      "title": "Multidisciplinary cosmetic medical guidance hosted by JDA",
+      "published": null,
+      "passage": "Hair-removal chapter, PDF pp. 66–78; historical device lists not current inventory",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "oim-selfpay",
+      "resource": "https://oim.or.jp/treatment/department/hifuka/laser/",
+      "title": "Osaka Police Hospital laser information",
+      "published": null,
+      "passage": "Self-pay opening paragraph; clinician assessment and variable repeats; no prices stored",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "saiseikai",
+      "resource": "https://www.sakaiminato-saiseikai.jp/departments/diagnosis/cosmetology_outpatient/medicallaserhairremoval/",
+      "title": "Saiseikai Sakaiminato Hospital consultation information",
+      "published": null,
+      "passage": "Treatment and consultation flags; facility-specific, not universal exclusion rules",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "caa-contract",
+      "resource": "https://www.no-trouble.caa.go.jp/what/continuousservices/",
+      "title": "CAA continuous services guide",
+      "published": null,
+      "passage": "Specified cosmetic services: duration/amount thresholds and cancellation rules",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "caa-prepay",
+      "resource": "https://www.caa.go.jp/policies/policy/consumer_policy/caution/caution_041/",
+      "title": "CAA advance-payment protection caution",
+      "published": null,
+      "passage": "Advance payment and contract/payment-method consideration; no guaranteed refund recovery",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    }
+  ],
+  "queries_executed": [
+    "\"医療脱毛\" \"国民生活センター\""
+  ],
+  "limits": [
+    "Undated pages have unknown publication/effective bounds. No hashes of full source documents retained.",
+    "No real clinic shortlist, live clinic contact, user records or patient use.",
+    "Some batched Japanese searches returned irrelevant results; repeated focused search and publisher navigation used."
+  ],
+  "last_edited_at": "2026-10-13T02:56:27Z"
+}
