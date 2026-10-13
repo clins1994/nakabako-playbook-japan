@@ -77,7 +77,7 @@
       "nakabako.hair-removal.orientation"
     ],
     "jurisdiction": "Japan",
-    "last_edited_at": "2026-10-13T02:56:27Z",
+    "last_edited_at": "2026-10-13T03:18:05Z",
     "last_verified_at": null,
     "successful_use": null,
     "research_evidence": "../research-receipts.json",

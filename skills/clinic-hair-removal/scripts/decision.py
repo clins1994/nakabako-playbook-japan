@@ -29,6 +29,8 @@ def next_decision(facts):
         return 'minimize_private_data'
     if facts.get('medical_question'):
         return 'clinician_consultation'
+    if facts.get('communication_unusable'):
+        return 'resolve_communication_before_booking'
     if not facts.get('sources_checked_this_run'):
         return 'refresh_current_evidence'
     if facts.get('diagnosis_needed'):
