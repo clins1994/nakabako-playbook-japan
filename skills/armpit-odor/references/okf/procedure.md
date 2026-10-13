@@ -72,7 +72,7 @@
       "nakabako.armpit-odor.routes"
     ],
     "jurisdiction": "Japan",
-    "last_edited_at": "2026-10-13T02:56:27Z",
+    "last_edited_at": "2026-10-13T03:18:05Z",
     "last_verified_at": null,
     "successful_use": null,
     "research_evidence": "../research-receipts.json",
@@ -101,7 +101,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 JDA's December 2023 amended guideline is for **sweating**, and describes prescription treatment paths; it is not an odor insurance protocol.[^jda-2023] The older Q11 discusses insurance for severe axillary hyperhidrosis botulinum toxin; recheck current labeling and billing before applying that historical statement.[^jda-btx]
 
-MHLW's retrieved fee table lists K008: 皮弁法 6,870 points, 皮膚有毛部切除術 3,000 points and その他のもの 1,660 points. Use the current revision hub and implementation notices.[^mhlw-fee-hub] Use the current revision hub and implementation notices.[^mhlw-fee-hub] These are fee components, **not patient totals or evidence that any named cosmetic technique qualifies**. Verify the applicable current schedule/implementation notices, medical indication, exact technique, bilateral billing and provider before making an estimate. Do not multiply by two or assume a copay percentage.[^mhlw-k008]
+MHLW's retrieved fee table lists K008: 皮弁法 6,870 points, 皮膚有毛部切除術 3,000 points and その他のもの 1,660 points. Use the current revision hub and implementation notices.[^mhlw-fee-hub] These are fee components, **not patient totals or evidence that any named cosmetic technique qualifies**. Verify the applicable current schedule/implementation notices, medical indication, exact technique, bilateral billing and provider before making an estimate. Do not multiply by two or assume a copay percentage.[^mhlw-k008]
 
 The university hospital describes diagnosis before insured flap surgery and separates self-pay alternatives. Surgery can leave scars and cause hematoma, infection or tissue necrosis and requires follow-up/rest. Its old 2021 admission logistics and optimistic result wording must not be generalized or reused as current guarantees.[^nms]
 
@@ -124,7 +124,7 @@ Use MHLW's informed-choice checklist and verify applicable contract cancellation
 [^mhlw-consent]: MHLW checklist, undated, items 1–4; checked 2026-10-13.
 [^ncac-contract]: NCAC, 2017-12-07, contract rules overview; checked 2026-10-13. Verify current conditions and scope.
 
-[^jsprs-odor]: JSPRS guideline chapter, July 2021 foreword, printed pp. 341–351 (PDF pp. 358–368), retrieved from 2023 upload path on 2026-10-13; limited evidence and technique dependence.
+[^jsprs-odor]: JSPRS guideline chapter, July 2021 foreword, printed pp. 341–351 (PDF pp. 359–369 (zero-based 358–368)), retrieved from 2023 upload path on 2026-10-13; limited evidence and technique dependence.
 [^mhlw-fee-hub]: MHLW 2026 fee-revision hub, checked 2026-10-13; confirm effective application and later notices before estimating.
 [^mhlw-documents]: MHLW eligibility-document page, undated, checked 2026-10-13; current facility presentation guidance.
 

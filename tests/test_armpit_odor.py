@@ -37,6 +37,12 @@ class ProcedureFlow(unittest.TestCase):
         with self.assertRaises(ValueError):
             policy.next_decision({'sources_checked_this_run': 'yes'})
 
+    def test_unusable_communication_stops_booking_readiness(self):
+        self.assertEqual(policy.next_decision(dict(
+            sources_checked_this_run=True, options_ready=True, choice_complete=True,
+            details_current=True, communication_unusable=True)),
+            'resolve_communication_before_booking')
+
     def test_unknown_is_not_zero_or_total(self):
         summary = policy.cost_summary({'base': 100000, 'face': 20000, 'vio': 30000, 'shaving': 5 * 2000, 'anesthesia': None})
         self.assertEqual(summary['known_subtotal_jpy'], 160000)
@@ -67,6 +73,22 @@ class ProcedureFlow(unittest.TestCase):
         action['fields'][0]['value'] = 'CHANGED_SYNTHETIC'
         self.assertNotEqual(result['snapshot']['fields'], action['fields'])
         self.assertIsNone(policy.future_handoff_ready({}, approval))
+
+    def test_duplicate_metadata_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            portable = Path(directory) / 'skill'
+            shutil.copytree(ROOT, portable)
+            entry = portable / 'SKILL.md'
+            original = entry.read_text()
+            parts = original.split('---', 2)
+            parts[1] += '  compatibility: duplicated value\n'
+            entry.write_text('---'.join(parts))
+            self.assertIn('SKILL.md: duplicate YAML key: compatibility', validator.validate_skill(portable))
+            entry.write_text(original)
+            concept = portable / 'references' / 'okf' / 'procedure.md'
+            concept.write_text(concept.read_text().replace('"status": "draft",', '"status": "draft", "status": "stable",'))
+            self.assertTrue(any('duplicate JSON key: status' in error for error in validator.validate_skill(portable)))
+        self.assertEqual(validator.validate_entrypoint_frontmatter('---\nname: test\nmetadata:\n  name: nested\n---\n'), [])
 
     def test_portable_bundle_and_missing_dependency(self):
         self.assertEqual(validator.validate_skill(ROOT), [])

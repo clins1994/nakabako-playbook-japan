@@ -13,6 +13,47 @@ from urllib.parse import unquote, urlsplit
 SKILL = Path(__file__).resolve().parents[1]
 
 
+def unique_json_object(pairs):
+    """Reject ambiguous duplicate keys in this JSON producer profile."""
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError('duplicate JSON key: ' + key)
+        result[key] = value
+    return result
+
+
+def validate_entrypoint_frontmatter(text):
+    """Strict duplicate-key check for our scalar/block-mapping YAML profile.
+
+    This is deliberately not a general YAML parser. Flow mappings, aliases,
+    sequences and multiline scalar syntax are outside this producer profile.
+    """
+    parts = text.split('---', 2)
+    if len(parts) != 3 or parts[0].strip():
+        return ['SKILL.md: missing frontmatter']
+    levels = {}
+    errors = []
+    for line in parts[1].splitlines():
+        if not line.strip() or line.lstrip().startswith('#'):
+            continue
+        match = re.fullmatch(r'( *)([a-zA-Z][a-zA-Z0-9_-]*):(?: (.*))?', line)
+        if not match:
+            errors.append('SKILL.md: unsupported frontmatter producer syntax')
+            continue
+        indent, key, value = len(match[1]), match[2], match[3]
+        if value and value[0] in '{}[]&*|>':
+            errors.append('SKILL.md: unsupported frontmatter producer syntax')
+        for depth in list(levels):
+            if depth > indent:
+                del levels[depth]
+        keys = levels.setdefault(indent, set())
+        if key in keys:
+            errors.append('SKILL.md: duplicate YAML key: ' + key)
+        keys.add(key)
+    return errors
+
+
 def validate_skill(root):
     """Check bundled dependencies, native metadata and claim attribution locally."""
     root = Path(root).resolve()
@@ -25,6 +66,9 @@ def validate_skill(root):
     for name in required:
         if not (root / name).is_file():
             errors.append('missing dependency: ' + name)
+
+    if (root / 'SKILL.md').is_file():
+        errors.extend(validate_entrypoint_frontmatter((root / 'SKILL.md').read_text()))
 
     def dependency(origin, target, bundle=False):
         parsed = urlsplit(target)
@@ -47,7 +91,7 @@ def validate_skill(root):
             parts = text.split('---', 2)
             if parts[0].strip() or len(parts) != 3:
                 raise ValueError('missing JSON frontmatter')
-            meta = json.loads(parts[1])
+            meta = json.loads(parts[1], object_pairs_hook=unique_json_object)
             if not isinstance(meta, dict):
                 raise ValueError('frontmatter must be object')
             if path == okf / 'index.md':
