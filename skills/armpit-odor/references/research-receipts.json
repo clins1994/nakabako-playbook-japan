@@ -1,0 +1,149 @@
+{
+  "license": "CC-BY-4.0",
+  "research_type": "public-only retrieval and passage review, not clinical verification",
+  "checked_at": "2026-10-13T02:48:48Z",
+  "sources": [
+    {
+      "id": "mhlw-consent",
+      "resource": "https://www.mhlw.go.jp/stf/newpage_04978.html",
+      "title": "MHLW cosmetic procedure checklist",
+      "published": null,
+      "passage": "Checklist items 1–4; consultation and complaint contacts",
+      "scope": "Japan; informed choice, risks, alternatives and avoiding rushed decisions",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "ncac-contract",
+      "resource": "https://www.kokusen.go.jp/news/data/n-20171207_1.html",
+      "title": "NCAC cosmetic medical contract rules",
+      "published": "2017-12-07",
+      "passage": "Rules overview and consumer advice",
+      "scope": "Japan; qualifying contracts only, not universal cancellation rights",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "jda-odor",
+      "resource": "https://qa.dermatol.or.jp/qa32/q05.html",
+      "title": "JDA skin Q&A: axillary odor",
+      "published": null,
+      "passage": "Q5 sweat glands and odor",
+      "scope": "Orientation; older Q&A, not a diagnostic algorithm",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "jda-btx",
+      "resource": "https://qa.dermatol.or.jp/qa32/q11.html",
+      "title": "JDA skin Q&A: botulinum toxin",
+      "published": null,
+      "passage": "Q11 severe axillary hyperhidrosis insurance indication",
+      "scope": "Orientation; older Q&A, verify current label and rules",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "jda-2023",
+      "resource": "https://www.jstage.jst.go.jp/article/dermatol/133/13/133_3025/_pdf/-char/ja",
+      "title": "JDA primary focal hyperhidrosis guideline, December 2023 amendment",
+      "published": "2023-12",
+      "passage": "p. 3025 scope/amendment; diagnostic classification and treatment sections",
+      "scope": "Sweating, not an odor-treatment insurance guarantee",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "nms",
+      "resource": "https://www.nms.ac.jp/kosugi-h/section/plastic-surgery/guide_wakiga.html",
+      "title": "Nippon Medical School Musashi Kosugi Hospital odor diagnosis and surgery",
+      "published": null,
+      "passage": "Objective diagnosis; insured flap surgery; self-pay alternatives; complications",
+      "scope": "Provider-specific clinical illustration; contains visibly old 2021 logistics",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "mhlw-k008",
+      "resource": "https://www.mhlw.go.jp/content/12400000/001686842.pdf",
+      "title": "MHLW medical fee schedule, K008",
+      "published": null,
+      "passage": "PDF p. 278 (zero-based 277): K008 three surgery categories",
+      "scope": "2026 schedule supplied for review; existence of fee categories is not individual coverage",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "miradry-alert",
+      "resource": "https://www.jsaps.com/pdf/news/alert_miradry_20230127.pdf",
+      "title": "Joint Japanese societies: appropriate use of miraDry",
+      "published": "2023-01-27",
+      "passage": "pp. 1–2 approved use, warnings, contraindications and informed consent",
+      "scope": "Device approval and safety, distinct from reimbursement",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "writing",
+      "resource": "https://github.com/ayghri/i-have-adhd/blob/main/skills/i-have-adhd/SKILL.md",
+      "title": "ayghri/i-have-adhd writing guidance",
+      "published": null,
+      "passage": "Rules 1–5, 9–10 and exceptions",
+      "scope": "Writing only; no installation or executable reuse",
+      "retrieved_at": "2026-10-13T02:48:48Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "jsprs-odor",
+      "resource": "https://jsprs.or.jp/member/committee/wp-content/uploads/2023/04/guideline1.pdf",
+      "title": "JSPRS axillary odor guideline chapter",
+      "published": "2021-07",
+      "passage": "Printed pp. 341–351 (PDF pp. 359–369, zero-based 358–368); diagnostic and technique evidence; 2023 URL upload is not publication date",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "mhlw-fee-hub",
+      "resource": "https://www.mhlw.go.jp/stf/newpage_67729.html",
+      "title": "MHLW 2026 fee revision hub",
+      "published": null,
+      "passage": "Current revision materials hub; recheck implementation dates/notices before applying K008",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    },
+    {
+      "id": "mhlw-documents",
+      "resource": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "title": "MHLW insurance eligibility documents",
+      "published": null,
+      "passage": "Medical facility/pharmacy presentation section: My Number insurance card or eligibility certificate",
+      "scope": "Japan; original orientation only, applicability rechecked at every use",
+      "retrieved_at": "2026-10-13T02:56:27Z",
+      "effective_bounds": null,
+      "outcome": "retrieved and relevant passages inspected"
+    }
+  ],
+  "queries_executed": [
+    "\"腋臭症\" \"保険\" site:ac.jp",
+    "\"原発性局所多汗症診療ガイドライン2023年改訂版\""
+  ],
+  "limits": [
+    "Undated pages have unknown publication/effective bounds. No hashes of full source documents retained.",
+    "No real clinic shortlist, live clinic contact, user records or patient use.",
+    "Some batched Japanese searches returned irrelevant results; repeated focused search and publisher navigation used."
+  ],
+  "last_edited_at": "2026-10-13T02:56:27Z"
+}
